@@ -6,11 +6,21 @@ public class Pedido {
     private int id;
     private List<Produto> produtos;
     private double valorTotal;
+    private String status;
 
-    public Pedido(int id, List<Produto> produtos, double valorTotal) {
+    public Pedido(int id, List<Produto> produtos, double valorTotal, String status) {
         this.id = id;
         this.produtos = produtos;
         this.valorTotal = valorTotal;
+        this.status = status;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public int getId() {

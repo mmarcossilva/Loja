@@ -1,0 +1,1 @@
+[{"id":1,"nome":"nome","cpf":"99988877766","email":"email@email.com","telefone":"9999999999","pedidos":[{"id":1,"produtos":[{"id":1,"descricao":"coisa","cor":"verde","quantidade":3,"preco":2000.0},{"id":3,"descricao":"coisa3","cor":"amarelo","quantidade":1,"preco":20.0}],"valorTotal":3000.0,"status":null}]}]
